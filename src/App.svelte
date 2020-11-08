@@ -1,4 +1,7 @@
 <script>
+
+	import About from './components/About.svelte';
+
 	export let name;
 	export let lastName; // Properties
 
@@ -7,7 +10,7 @@
 
 <main>
 	<h1>Hello {name} { lastName }!</h1>
-	<p>Frontend Developer</p>
+	<About />
 	<img src="{ svelteLogo }" alt="Svelte Logo">
 </main>
 
@@ -34,11 +37,6 @@
 		text-transform: uppercase;
 		font-size: 4em;
 		font-weight: 100;
-	}
-
-	p {
-		color: var(--theme-color);
-		font-size: 22px;
 	}
 
 	main img {
