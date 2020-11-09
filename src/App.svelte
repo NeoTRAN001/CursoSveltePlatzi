@@ -1,8 +1,10 @@
 <script>
-	import About from './components/About.svelte';
-	import Text from './components/Text.svelte';
+	import About  from './components/About.svelte';
+	import Text   from './components/Text.svelte';
 	import Person from './components/Person.svelte';
 	import Skills from './components/Skills.svelte';
+	import Input  from './components/Input.svelte';
+	import Photos from './components/Photos.svelte';
 
 	export let name;
 	export let lastName; // Properties
@@ -23,6 +25,8 @@
 	<Text />
 	<Person { ...data } />
 	<Skills />
+	<Input />
+	<Photos />
 	<img src="{ svelteLogo }" alt="Svelte Logo">
 </main>
 
