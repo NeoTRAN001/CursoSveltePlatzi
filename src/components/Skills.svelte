@@ -27,7 +27,7 @@
 </main>
 
 <style>
-    .Skills {
+    main {
         display: flex;
         align-items: center;
         justify-content: center;
