@@ -1,10 +1,11 @@
 <script>
-	import About  from './components/About.svelte';
+	import About  from 'About.svelte';
 	import Text   from './components/Text.svelte';
 	import Person from './components/Person.svelte';
 	import Skills from './components/Skills.svelte';
 	import Input  from './components/Input.svelte';
 	import Photos from './components/Photos.svelte';
+	import ButtonCount from './components/ButtonCount.svelte';
 
 	export let name;
 	export let lastName; // Properties
@@ -20,6 +21,7 @@
 
 <main>
 	<h1>Hello {name} { lastName }!</h1>
+	<ButtonCount />
 	<About />
 	<Text anotherText = "Hola"/>
 	<Text />
